@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: aqua;
+        }
+
+        /* color for a class */
+        .red{
+            color: red;
+        }
+
+        /* color for a ID */
+        #thistle
+        {
+            background-color: thistle;
+        }
+
+        /* color for a paragraph inside a div */
+        div > p
+        {
+            background-color: beige;
+            color: black;
+        }
+
+        /* universal selector */
+        *{
+                margin: 0;
+                padding: 0;
+        }
+
+        /* color for visited link */
+        a:visited{
+            color: teal;
+        }
+
+        /* color for never visited link */
+        a:link {
+            color: brown;
+        }
+
+        /* color when you click a link */
+        a:active{
+            background-color: bisque;
+        }
+
+        /* color on hovering on an anchor tag */
+        a:hover{
+            background-color: red;
+        }
+
+        /* if p is the first child of its parent */
+        p:first-child{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        This is a div
+        <p>This is a paragraph </p>
+    </div>
+    <div id="thistle">
+        Another div 
+    </div>
+    <a href="https:google.co.in">Google India</a>
+    <a href="https:facebook.com">Facebook</a>
+</body>
+</html>

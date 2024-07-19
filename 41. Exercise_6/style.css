@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+.image{
+    /* border: 1px solid black; */
+}
+.list{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+.container_1
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_1 h2{
+    margin-bottom: 35px;
+}
+.container_1 h2 img{
+    margin-left: 15px;
+}
+.download_button{
+    margin: 40px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: rgb(105, 240, 255);
+    color: white;
+    cursor: pointer;
+}
+.download_button a{
+    text-decoration: none;
+    color: white;
+}
+.container_2{
+    height: 900px;
+    /* border: 1px solid black; */
+    padding-left: 190px;
+    /* padding-right: 170px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: flex-start;
+}
+.lang_button{
+    background-color: rgba(211, 211, 211, 0.136);
+    height: 120px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+}
+.heading{
+    height: 90px;
+    text-align: center;
+}
+.dl_buttons{
+    height: 50px;
+}
+.dl_1{
+    background-color: rgb(127, 234, 255);
+    margin: 3px;
+    padding: 9px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 10px;
+}
+.dl_2{
+    background-color: rgb(127, 255, 129);
+    margin: 3px;
+    padding: 9px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 10px;
+}
+.container_3{
+    background-color: #222222;
+    height: 700px;
+}
+.first_half{
+    border: 1px solid white;
+    height: 350px;
+}
+.first_half h3{
+    color: white;
+}
+.first_half p{
+    color: white;
+}
+.sign_up_left{
+
+}
+.sign_up_right{
+    background-color: white;
+    height: 100px;
+}
+.second_half{
+    border: 1px solid white;
+    height: 350px;
+}

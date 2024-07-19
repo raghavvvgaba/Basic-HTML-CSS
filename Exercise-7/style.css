@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+.list{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+.container_1
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_1 h2{
+    margin-bottom: 35px;
+}
+.container_1 h2 img{
+    margin-left: 15px;
+}
+.download_button{
+    margin: 40px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: rgb(105, 240, 255);
+    color: white;
+    cursor: pointer;
+}
+.download_button a{
+    text-decoration: none;
+    color: white;
+}
+
+.container_2{
+    /* background-color: rgb(94, 94, 94); */
+    height: 700px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: grid;
+    grid-template-areas: "box1 box1 box1"
+                         "box2 box2 box2"
+                         "box3 box3 box3"
+                         "box4 box4 box4"
+                         "box5 box5 box5"
+    /* justify-items: center; */
+    /* align-items: center; */
+    
+}
+.item{
+    background-color:  rgb(222, 230, 230);
+    width: 300px;
+    height: 150px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+    display: grid;
+}
+.lang_name{
+    text-align: center;
+    align-self: center;
+}
+.dl_button{
+    padding-top: 40px;
+    display: grid;
+    grid-template-areas: "left right";
+    gap: 5px;
+}
+.bit32{
+    background-color: aqua;
+    justify-self:end;
+    height: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 130px;
+}
+.bit64{
+    background-color: rgb(134, 252, 98);
+    justify-self: start;
+    height: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 130px;
+}
+@media screen and (max-width: 1280px) {
+    
+
+
+    .container_2{
+        height: 700px;
+        margin-left: 250px;
+        margin-right: 250px;
+        display: grid;
+        grid-template-areas: "1fr"
+    }
+    .item{
+        /* background-color:  rgb(11, 105, 105); */
+        width: 761px;
+        height: 150px;
+        /* justify-self: center; */
+        gap: 10px;
+        align-self: center;
+        border-radius: 5px;
+        display: grid;
+    }
+}
